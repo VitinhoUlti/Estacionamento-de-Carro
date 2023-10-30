@@ -31,7 +31,7 @@ while(menu)
             Console.WriteLine("Digite a placa do veiculo que ira sair:");
             carros.Remove(Console.ReadLine());
 
-            Console.WriteLine("Digite Quanto tempo ele ficou:");
+            Console.WriteLine("Digite Quantas Horas ele ficou:");
             int total = (Convert.ToInt32(Console.ReadLine()) * precohora) + precoinicial;
 
             Console.WriteLine($"Ele tera que pagar {total} reais");
